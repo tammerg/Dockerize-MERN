@@ -1,5 +1,7 @@
 # Dockerize a MERN Stack Application
 
+[Introduction Video](https://youtu.be/u21sT9jVhMA)
+
 Welcome to Dockerizing a MERN Stack application! In this short course, we are going to harness the power of Docker and docker-compose to allow us to setup a complete MERN environment, allowing us to run a simple movie application! This course assumes you have extensive knowledge in MERN Stack development, and only a basic understanding of Dockerfiles and docker-compose.yml syntax. If either of those don't seem familiar to you, head on over to the documentation to learn more:
 
 * [Docs on Dockerfile](https://docs.docker.com/engine/reference/builder/)
