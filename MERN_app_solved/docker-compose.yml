@@ -5,8 +5,6 @@ services:
     stdin_open: true
     ports:
       - "3000:3000"
-    networks:
-      - movies-app
 
   app-server:
     image: app-server
@@ -14,22 +12,9 @@ services:
       - "5000:5000"
     depends_on: 
       - mongo
-    networks:
-      - movies-app
 
   mongo:
     image: mongo:latest
     ports:
       - "27017:27017"
-    networks:
-      - movies-app
-    volumes:
-      - mongo-data:/data/db
-
-networks:
-  movies-app:
-    driver: bridge
-
-volumes:
-  mongo-data:
-    driver: local
+      
