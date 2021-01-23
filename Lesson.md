@@ -15,7 +15,9 @@ Let's get to it!
 
 ## Check out our MERN app
 
-First, lets open `MERN_app_unsolved` in our IDE and inspect its contents. Great! We have a client and a server, both wired up to speak to each other.
+To begin this lesson, clone this repository down to your local machine if it is not already, and open it in your IDE of choice.
+
+Navigate to `MERN_app_unsolved` in your IDE and inspect its contents. Great! We have a client and a server, both wired up to speak to each other.
 
 ![Client/Server](./MERN_app_unsolved/images/01-client_server.png)
 
